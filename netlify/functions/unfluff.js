@@ -1,5 +1,6 @@
 import unfluff from 'unfluff';
 exports.handler = async (event, context) => {
+    console.log("hubixowy netlify")
     try {
         const url = event.queryStringParameters.url;
         if (!url) {
